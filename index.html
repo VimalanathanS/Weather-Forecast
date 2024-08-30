@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="icon" href="weather.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- <img class="bg1" src="bg1.png"> -->
+    <div class="container">
+        <h1 id="H1">Know your Weather<img class="H11" src="globe.png"></h1>
+        <h2  class="tit">City</h2><input type="text" placeholder="Enter the City" class="box" id="input">
+        <br>
+        <h2 class="tit">Temperature</h2>
+        <input type="text" placeholder="°C" Class="box1" id="result">
+        <br>
+        <h2 class="tit1">Pressure</h2>
+        <input type="text" placeholder="millibars" Class="box2" id="result1">
+        <br>
+        <h2 class="tit2">Humidity</h2>
+        <input type="text" placeholder="Percent" Class="box3" id="result2">
+        <br>
+        <button class="btn-grad" type="submit" onclick="getWeather()" >Get Weather</button>
+    </div>
+    <script src="ind.js">
+    </script>
+</body>
+</html>
